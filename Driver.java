@@ -40,9 +40,8 @@ public class Driver {
 		 * loop to play again - Jordan Johnson
 		
 		 * Scanner hm = new Scanner(System.in);
-		*while(true) { // loop forever, or until the user wants to leave
+		*while(true)
 			*play(hm, 3);
-			* if they say no, we're done
 			*if (!askPlayAgain(kb)) { break; }
 		*}
 		*System.out.println("Bye");
