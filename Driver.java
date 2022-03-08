@@ -24,12 +24,30 @@ public class Driver {
 		 * prompt the user for the number of guesses - Daniel
 		 * display the number of blanks to match the letters - AJ
 		 * prompt the user to input a letter - Jordan Johnson
+		
+		 * public static void main(String[] args)   {   
+		*Scanner sc = new Scanner(System.in);   
+		*System.out.print("Input a character: ");  
+		*}   
+	*} 
+
 		 * check word for letter - Phillip
 		 * update the word display with the letters they have guessed - Ross
 		 * maintain and possibly display list of previously guessed letters - Jordan Jones
 		 * if all blanks have been filled - user wins - Jack
 		 * counter to keep up with incorrect guesses and if exceeds number of guesses from beginning, the player loses - Daniel
 		 * loop to play again - Jordan Johnson
+		
+		 * Scanner hm = new Scanner(System.in);
+		*while(true) { // loop forever, or until the user wants to leave
+			*play(hm, 3);
+			* if they say no, we're done
+			*if (!askPlayAgain(kb)) { break; }
+		*}
+		*System.out.println("Bye");
+	*}
+*}
+
 		 * 
 		 * 
 		 * Big Task: algorithm to change word based on user guesses to include a method for creating word families
